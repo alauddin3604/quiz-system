@@ -1,0 +1,279 @@
+body{
+	background-color:#341037;
+}
+
+.questiontable{
+	min-width:1000px;
+	font-size:25px;
+	border-collapse: separate;
+	padding:15px;
+	border-spacing:15px;
+	margin:0px auto;
+	color:white;
+}
+
+.questioncolumn{
+	text-align:center;
+	color:white;
+	background-color:#455a64;
+	height:200px;
+	font-size:30px;
+}
+
+.optioncolumn{
+	text-align:left;
+	color:white;
+	
+	height:100px;
+	cursor:pointer;
+}
+
+.questiontable td{
+	padding:15px;
+}
+
+#option_A{
+	background-color:#EF6950  ;
+}
+
+#option_B{
+	background-color:#40C5AF ;
+}
+ 
+#option_C{
+	background-color:#409AE1 ;
+}
+
+#option_D{
+	background-color:#FFC83D ;
+}
+
+
+.countdownbox {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.questiondiv {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.leaderboarddiv {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.leaderboard{
+	min-width:100%;
+	font-size:25px;
+	padding:15px;
+	border-spacing:15px;
+	margin:0px auto;
+	text-align:center;
+	color:white;
+}
+
+.leaderboard th{
+	text-align:center;
+}
+
+.leaderboard td{
+	
+	padding:10px;
+}
+
+.participantlist{
+	min-width:100%;
+	font-size:25px;
+	padding:15px;
+	border-spacing:15px;
+	margin:0px auto;
+	text-align:center;
+	color:white;
+	border:3px solid #455a64;
+	border-collapse:unset;
+}
+
+.participantlist th{
+	text-align:center;
+}
+
+.participantlist td{
+	padding:10px;
+}
+
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+.countdown_container, .questiondiv_container,.leaderboarddiv_container,.spinner_container{
+	display:none;
+	color:white;
+}
+
+.magni{
+	float:right;
+}
+
+#answerstatus{
+	float:left;
+}
+
+.fa-caret-up{
+	font-size:30px;
+}
+
+#diamond{
+	transform: rotate(45deg);
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.popupCloseButton:hover {
+    background-color: red;
+}
+
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.popup_icon{
+	font-size:40px;
+}
+/* Popup box BEGIN */
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	opacity:1;
+	font-size:inherit;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+    width: 100px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    right: -40px;
+    top: -40px;
+	font-size:12px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.spinner_container{
+	color:white;
+}
+
+#h1text{
+	color:white;
+}
+
+#Progress_Status { 
+  width: 70%; 
+  background-color: red; 
+  margin:0px auto;
+} 
+  
+#myprogressBar { 
+  width: 0%; 
+  height: 35px; 
+  background-color: #4CAF50; 
+  text-align: center; 
+  line-height: 35px; 
+  color: black; 
+  font-size:20px;
+} 
